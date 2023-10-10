@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #222; /* Darker Background Color */
+    color: #fff;
+}
+
+.login-container {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent Black Background */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+input, button {
+    margin-bottom: 10px;
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
